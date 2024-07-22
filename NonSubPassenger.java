@@ -25,6 +25,8 @@ public class NonSubPassenger extends Passenger{
         System.out.println(getName());
         System.out.println(getID());
         System.out.println(getCar().getCode());
+        System.out.println(getCar().getfixedRoute().getStartPickUpAddress());
+        System.out.println(getCar().getfixedRoute().getDestinationAddress());
         System.out.println(getCar().getfixedRoute().getTripPrice());
         System.out.println(getTripCost());
         System.out.println();
